@@ -26,6 +26,11 @@ public class UltimateEventManagerEditor : ModuleRules
                 "LevelEditor",
                 "ApplicationCore",
                 "ToolMenus",
+                "AssetTools",
+                "ContentBrowser",
+                "ContentBrowserData",
+                "KismetCompiler",
+                "BlueprintGraph",
                 "UltimateEventManager"
             }
         );

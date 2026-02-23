@@ -9,5 +9,8 @@ public:
     virtual void StartupModule() override;
     virtual void ShutdownModule() override;
     TSharedRef<SDockTab> SpawnEventDebuggerTab(const FSpawnTabArgs& Args);
+    void CreateGameEvent();
+    void CreateEventPayload();
     void RegisterMenus();
+    void NotifyAssetCreated(UObject* Asset);
 };
